@@ -208,3 +208,90 @@ width: 60%;
     margin-left: 10px;
     /* margin-top: 20px; */
 }
+.instagram{
+    /* display: block;
+    margin: 0px auto; */
+    height: 500px;
+    width: 100%;
+    /* background-color: #E55473; */
+}
+
+.header2 h2{
+display: block;
+text-align: center;
+font-family: serif;
+font-size: 25px;
+}
+.header2 p{
+    padding: 10px;
+    text-align: center;
+    line-height: 27px;
+}
+
+
+.flower_box{
+    display: flex;
+justify-content: space-between;
+    width: 80%;
+    padding: 40px;
+    margin-left: 50px;
+}
+.box1 img{
+    height: 300px;
+    width: 260px;
+    padding: 10px;
+}
+.box2 img{
+    height: 300px;
+    width: 260px;
+    padding: 10px;
+}
+.box3 img{
+    height: 300px;
+    width: 260px;
+    padding: 10px;
+}
+.box4 img{
+    height: 300px;
+    width: 250px;
+    padding: 10px;
+}
+
+.last_update{
+    margin: 0px auto;
+    height: 350px;
+    width: 80%;
+    display: block;
+    
+}
+.last_update img{
+    height: 300px;
+    width: 90%;
+    display: block;
+    margin: 20px auto;
+}
+.main_search{
+    display: flex;
+    justify-content: center;
+    margin-top: -200px;
+}
+.main_search input{
+    height: 50px;
+    width: 478px;
+    border: 2px solid white;
+    background-color: whitesmoke;
+    
+}
+.main_search input::placeholder{
+    padding: 60px;
+}
+
+
+
+
+.main_search label button{
+    height: 52px;
+    width: 80px;
+    background-color: #E55473;
+    border-radius: 0px 10px 10px 0px;}
+    
