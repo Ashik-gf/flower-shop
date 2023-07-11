@@ -312,7 +312,7 @@ justify-content: space-between;
         height: 300px;
         width: 100%;
         background-color: black;
-        padding: 50px;
+        /* padding: 50px; */
         color: white;
         font-family: serif;
     }
@@ -321,6 +321,7 @@ justify-content: space-between;
         width: 500px;
          /* background-color: blue; */
         margin: 50px auto;
+        padding-top: 50px;
     }
     .footer_box span{
         color: #E55473;
@@ -338,5 +339,44 @@ justify-content: space-between;
         text-align: center;
         letter-spacing: 4px;
     }
+    .contact{
+        height: 200px;
+        width: 85%;
+        background-color: rgb(70, 150, 150);
+        display: block;
+        margin: 20px auto;  
+        border-radius: 10px;
+    }
+.contact h2{
+    color: white;
+    text-align: center; padding: 30px;
+}
+.contact table tr td a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.contact table tr td a:hover{
+    cursor: pointer;
+    
+}
 
+
+
+
+.contact table tr td{
+    /* border: 2px solid white; */
+   text-align: center;
+}
+.contact table{
+    
+    margin-left: 200px;
+}
+.contact table tr td img{
+
+    height: 20px;
+    margin-left: 30px;
+   
+} 
     
