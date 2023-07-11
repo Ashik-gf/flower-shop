@@ -256,37 +256,50 @@ justify-content: space-between;
     width: 250px;
     padding: 10px;
 }
-
-.last_update{
-    margin: 0px auto;
-    height: 350px;
-    width: 80%;
-    display: block;
+.update{
+    height: 300px;
+    padding: 0px;
+    width: 85%;
+    margin: 50px auto;
+    padding-top: 50px;
+    background-image: url(Rectangle\ 9.png);
+     background-size: cover;
+     background-position: center;
     
 }
-.last_update img{
-    height: 300px;
-    width: 90%;
-    display: block;
-    margin: 20px auto;
+.update h2{
+    text-align: center;
+    padding-top: 70px;
 }
+.update p{
+    /* display: block; */
+    text-align: center;
+    padding: 5px;
+    /* margin: 0px auto; */
+}
+
 .main_search{
     display: flex;
     justify-content: center;
-    margin-top: -200px;
+    padding-top: 20px;
+    
 }
 .main_search input{
     height: 50px;
     width: 478px;
     border: 2px solid white;
-    background-color: whitesmoke;
+    background-color: white;
     
 }
 .main_search input::placeholder{
     padding: 60px;
 }
 
-
+.deal {
+    display: block;
+    margin: 0px auto;
+    margin-top: -150px;
+}
 
 
 .main_search label button{
@@ -294,4 +307,36 @@ justify-content: space-between;
     width: 80px;
     background-color: #E55473;
     border-radius: 0px 10px 10px 0px;}
+
+    .footer{
+        height: 300px;
+        width: 100%;
+        background-color: black;
+        padding: 50px;
+        color: white;
+        font-family: serif;
+    }
+    .footer_box{
+        height: 200px;
+        width: 500px;
+         /* background-color: blue; */
+        margin: 50px auto;
+    }
+    .footer_box span{
+        color: #E55473;
+
+    }
+    .footer_box h1{
+        text-align: center;
+        font-size: 35px;
+    }
+    .footer_box p{
+        text-align: center;
+        padding: 10px;
+    }
+    .footer_box small{
+        text-align: center;
+        letter-spacing: 4px;
+    }
+
     
